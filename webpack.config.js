@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       inject: "body",
-      // meta: { "theme-color": "#70A3CC" },
+      meta: { "theme-color": "#333333" },
       favicon: "./src/weather.svg",
       template: "./src/index.html",
       filename: "index.html",
