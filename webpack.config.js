@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       inject: "body",
-      meta: { "theme-color": "#70A3CC" },
+      // meta: { "theme-color": "#70A3CC" },
       favicon: "./src/weather.svg",
       template: "./src/index.html",
       filename: "index.html",
@@ -25,9 +25,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.ccs$/,
+        test: /\.css$/,
         use: ["style-loader", "css-loader"],
       },
+      // {
+      //   test: /\.(png|svg|jpg|jpeg|gif)$/i,
+      //   type: "asset/resource",
+      // },
     ],
   },
 };
