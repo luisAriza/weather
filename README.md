@@ -1,6 +1,6 @@
 # App del Clima
 
-App basica del clima en diferentes localidades, utilicé el paradigma de <ins>POO</ins> y para la persistencia de datos <ins>Local Storage</ins>.
+App basica del clima de diferentes localidades, esto es gracias a la [**API de Open Weather**](https://openweathermap.org/current#geocoding). Utilicé el paradigma de <ins>POO</ins> y para la persistencia de datos <ins>Local Storage</ins>.
 
 Para los estilos utilicé el CDN de Bootstrap: [**Bootswatch**](https://www.bootstrapcdn.com/bootswatch/), e integré la herramienta de [**Webpack**](https://webpack.js.org/) para automatizar y optimizar el codigo.
 
